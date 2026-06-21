@@ -39,7 +39,7 @@ function A2() {
         </div>
 
         <div className="project-footer">
-          <span>2025</span>
+          <span>2026</span>
 
           <a
             href="https://github.com/yourusername/project-name"

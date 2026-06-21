@@ -2,6 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Prevent content hiding behind fixed navbar */
+body {
+  margin: 0;
+  padding-top: 75px;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -10,11 +20,16 @@ html {
   height: 75px;
   background: rgba(5, 11, 24, 0.95);
   backdrop-filter: blur(10px);
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 0 8%;
-  z-index: 1000;
+  box-sizing: border-box;
+
+  z-index: 9999;
+
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -29,14 +44,15 @@ html {
   display: flex;
   list-style: none;
   gap: 35px;
+  align-items: center;
 }
 
 .nav-links a {
   text-decoration: none;
   color: white;
   font-size: 1rem;
-  transition: 0.3s;
   position: relative;
+  transition: 0.3s;
 }
 
 .nav-links a:hover {
@@ -58,16 +74,47 @@ html {
   width: 100%;
 }
 
+/* Hamburger Icon */
+.menu-toggle {
+  display: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* ================= MOBILE ================= */
 @media (max-width: 768px) {
   .navbar {
     padding: 0 5%;
   }
 
-  .nav-links {
-    gap: 15px;
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .nav-links a {
-    font-size: 0.9rem;
+  .nav-links {
+    position: fixed;
+    top: 75px;
+    right: -100%;
+
+    width: 250px;
+    height: calc(100vh - 75px);
+
+    background: rgba(5, 11, 24, 0.98);
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 25px;
+    padding-top: 30px;
+
+    transition: right 0.3s ease;
+  }
+
+  .nav-links.active {
+    right: 0;
   }
 }

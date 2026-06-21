@@ -24,19 +24,27 @@ const Experience = () => {
 
         <ul className="achievement-list">
           <li>
-            Built REST APIs in Node.js and Express.js for authentication
-            workflows, reducing support queries.
+            Qualified for the internal round of Smart India Hackathon (SIH) 2025 at ISBM College of Engineering, Pune with team
+Code for Cause for developing Agrinova, an AI-powered crop yield prediction and agricultural optimization platform
           </li>
 
           <li>
-            Developed React.js UI components with form validation and resolved
-            multiple bugs during sprint reviews.
+           Participated in inter-college hackathons and coding competitions, including technical events organized at Sinhgad College and
+other institutes.
           </li>
 
           <li>
-            Integrated Cloudinary API for media uploads, improving asset
-            management and load performance.
-          </li>
+            React.js Certification — React Framework Certification June 2025
+              </li>
+            
+             <li>
+              MongoDB Certification — MongoDB Database Management Sep 2025
+                 IBM Certification — Prompt Engineering for Everyone
+                 </li>
+
+                  <li>
+                  IBM Certification — Prompt Engineering for Everyone
+                 </li>
         </ul>
       </div>
     </section>

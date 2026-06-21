@@ -35,10 +35,10 @@ plans using Generative AI
         </div>
 
         <div className="project-footer">
-          <span>2025</span>
+          <span>2026</span>
 
           <a
-            href="https://github.com"
+            href="https://github.com/vishwasbankar/Gen-Ai-full-stack"
             target="_blank"
             rel="noreferrer"
             className="code-link"
