@@ -5,14 +5,14 @@ function Education() {
     {
       degree: "B.E Computer Engineering",
       college: "ISBM College of Engineering, Pune",
-      year: "2023 - 2026",
+      year: "2024 - 2027",
       description:
         "Focused on software development, data structures, algorithms, databases, and full-stack web development. Participated in hackathons and AI projects.",
     },
     {
       degree: "Diploma in Information Technology",
       college: "Sveri College of Engineering (Poly), Pandharpur",
-      year: "2020 - 2023",
+      year: "2021- 2024",
       description:
         "Built a strong foundation in programming, networking, databases, and web technologies through academic and practical projects.",
     },

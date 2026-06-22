@@ -33,6 +33,12 @@
     border-radius: 24px;
     padding: 40px;
     background: rgba(0, 10, 20, 0.5);
+    margin-bottom: 40px;
+    /* Gap between cards */
+}
+
+.experience-card:last-child {
+    margin-bottom: 0;
 }
 
 .card-header {
@@ -124,6 +130,7 @@
 
     .experience-card {
         padding: 25px;
+        margin-bottom: 30px;
     }
 
     .card-header {

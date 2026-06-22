@@ -33,12 +33,13 @@ Dedicated to creating impactful software with clean code and innovative thinking
   </button>
 
   <a
-    href="/DOC-20260523-WA0009.pdf"
-    download
-    className="btn-secondary"
-  >
-    Download Resume
-  </a>
+  href="/resume (3).pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-secondary"
+>
+  Download Resume
+</a>
 </div>
       </div>
 

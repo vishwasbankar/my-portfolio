@@ -10,6 +10,7 @@ const Experience = () => {
         Experience & <span>Achievements</span>
       </h2>
 
+      {/* Internship Card */}
       <div className="experience-card">
         <div className="card-header">
           <div>
@@ -24,27 +25,53 @@ const Experience = () => {
 
         <ul className="achievement-list">
           <li>
-            Qualified for the internal round of Smart India Hackathon (SIH) 2025 at ISBM College of Engineering, Pune with team
-Code for Cause for developing Agrinova, an AI-powered crop yield prediction and agricultural optimization platform
+            Developed and maintained web applications using modern
+            technologies while collaborating with senior developers.
           </li>
 
           <li>
-           Participated in inter-college hackathons and coding competitions, including technical events organized at Sinhgad College and
-other institutes.
+            Gained hands-on experience in software development lifecycle,
+            debugging, and deployment processes.
+          </li>
+        </ul>
+      </div>
+
+      {/* Achievements Card */}
+      <div className="experience-card">
+        <div className="card-header">
+          <div>
+            <h3>Achievements & Certifications</h3>
+            <p className="company">
+              Hackathons, Certifications & Technical Events
+            </p>
+          </div>
+        </div>
+
+        <ul className="achievement-list">
+          <li>
+            Qualified for the internal round of Smart India Hackathon (SIH)
+            2025 at ISBM College of Engineering, Pune with team Code for Cause
+            for developing Agrinova, an AI-powered crop yield prediction and
+            agricultural optimization platform.
           </li>
 
           <li>
-            React.js Certification — React Framework Certification June 2025
-              </li>
-            
-             <li>
-              MongoDB Certification — MongoDB Database Management Sep 2025
-                 IBM Certification — Prompt Engineering for Everyone
-                 </li>
+            Participated in inter-college hackathons and coding competitions,
+            including technical events organized at Sinhgad College and other
+            institutes.
+          </li>
 
-                  <li>
-                  IBM Certification — Prompt Engineering for Everyone
-                 </li>
+          <li>
+            React.js Certification — React Framework Certification (June 2025).
+          </li>
+
+          <li>
+            MongoDB Certification — MongoDB Database Management (Sep 2025).
+          </li>
+
+          <li>
+            IBM Certification — Prompt Engineering for Everyone.
+          </li>
         </ul>
       </div>
     </section>
